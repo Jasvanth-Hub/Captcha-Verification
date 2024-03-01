@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#box{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(76, 93, 93);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#container{
+    width: 350px;
+    height: 170px;
+    border-radius: 15px;
+    border-radius: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding: 20px;
+    padding-bottom: 30px;
+
+}
+
+.footer{
+    width: 100vw;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    background-color: rgb(43, 43, 112);
+    color: white;
+    padding: 6px;
+}
+
+h2{
+    font-size: 30px;
+    color: rgb(238, 236, 236);
+    margin-bottom: 20px;
+    -webkit-user-select:none ;
+    user-select: none;
+}
+
+#captchaText{
+    background: url("captcha.png");
+    border: none;
+    outline: none;
+    margin-top: 15px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    display: block;
+    cursor: none;
+    position: relative;
+    left: 18%;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: rgb(80, 80, 80);
+}
+
+#captchaEnter{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 270px;
+    height: 40px;
+    border: 2px solid black;
+    text-align: center;
+    display: block;
+    border-radius: 2px;
+    position: relative;
+    left: 7%;
+    font-size: 17px;
+}
+
+#btn1{
+    background-color: rgb(89, 104, 234);
+    border: 3px solid rgb(93, 106, 221);
+}
+
+#btn2{
+    background-color: #27ce5f;
+    border: 3px solid #27ce5f;
+}
+
+.btn{
+    color: white;
+    padding: 10px;
+    width: 150px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px;
+}
